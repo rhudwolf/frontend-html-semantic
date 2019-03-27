@@ -93,7 +93,7 @@ h1, h2, h3 {
 
 form, fieldset, p, table, img, code, ul, ol {
     display: block;
-    margin: 0 0 20px;
+    /* margin: 0 0 20px; */
     padding: 0;
 }
 
@@ -157,22 +157,22 @@ a:focus {
 }
 
 .example {
-    display: flex;
     background-color: #efefef;
     height: 50px;
     line-height: 50px;
     margin-bottom: 15px;
+    font-family: serif;
+    border-left: 5px solid #558abb;
 }
 
-.example_mark {
+/* .example_mark {
     width: 5px;
     height: 50px;
     background: #558abb;
-}
+} */
 
 .example_str {
     margin: 10px;
-    line-height: 30px;
 }
 
 /* ***** PART 2 ***** */
