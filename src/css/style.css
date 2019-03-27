@@ -81,9 +81,13 @@ q:after, quote:after{
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 1em 0 ;
+    margin: 0 ;
     padding: 0;
     font-weight: bold;
+}
+
+h1, h2, h3 {
+    margin-bottom: 1em;
 }
 
 
@@ -134,4 +138,56 @@ a:active {
 }
 a:focus {
     outline: thin dotted;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* ****** HEADER ***** */
+
+.descript {
+    width: 100%;
+    background-color: #f4f7f8;
+}
+
+.descript p {
+    padding: 15px;
+}
+
+.example {
+    display: flex;
+    background-color: #efefef;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+
+.example_mark {
+    width: 5px;
+    height: 50px;
+    background: #558abb;
+}
+
+.example_str {
+    margin: 10px;
+    line-height: 30px;
+}
+
+/* ***** PART 2 ***** */
+
+img {
+    margin-top: 1.5em;
+}
+
+/* ***** PART 3 ***** */
+
+.attr p {
+    margin-left: 35px;
+}
+
+
+table td:nth-child(2) {
+    width: 80%;
 }
