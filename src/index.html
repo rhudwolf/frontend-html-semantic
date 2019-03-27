@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="navigation">
+                <h1>Основы HTML</h1>
+                <ol>
+                    <li><a href="#">Что такое HTML на самом деле?</a></li>
+                        <ul>
+                            <li><a href="#">Анатомия HTML элемента</a></li>
+                            <li><a href="#">Вложенные элементы</a></li>
+                            <li><a href="#">Пустые элементы</a></li>
+                            <li><a href="#">Анатомия HTML документа</a></li>
+                        </ul>
+                    <li><a href="#">Краткое описание элемента &lthtml&gt &lt/html&gt</a></li>
+                        <ul>
+                            <li><a href="#">Атрибуты</a></li>
+                        </ul>
+                    <li><a href="#">Заключение</a></li>
+                </ol>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="descript">
+                <p>
+                    <b>" 
+                        <strong>HTML (Hepertext Markup Language)</strong>- это код, который используется для структурирования и отображения веб-страницы и ее контента. Например, контент может быть структурированным внутри множества параграфов, маркированных списков или с использованием изображений и таблиц данных. Или это может быть даже изображения или таблицы данных. Как видно из названия, эта статья даст вам базовое прнимание HTML и его функций.
+                    </b>
+                </p>
+            </div>
+            
+        
+            <h2>
+                Что такое HTML на самом деле?
+            </h2>
+        
+            <p>
+                HTML не является языком программирования; это <em>язык разметки</em>, и используется, чтобы сообщать вашему браузеру как отображать веб-страницы, которые вы посещаете.
+            </p>
+        
+            <div class="example">
+                <div class="example_mark">
+
+                </div>
+                <div class="example_str">
+                    <p>
+                        My cat is very grumpy
+                    </p>
+                </div>
+            </div>
+        
+            <p> Если мы хотим строку стоящую саму по себе, мы можем указать, что это параграм, заключая ее в тег параграфа (&ltp&gt) элементом:</p>
+        
+
+            <div class="example">
+                <div class="example_mark">
+
+                </div>
+                <div class="example_str">
+                    <p>
+                        &ltp&gt My cat is very grupmy &lt/p&gt
+                    </p>
+                </div>
+            </div>
+
+            <h3>
+                Анатомия HTML элемента
+            </h3>
+            <p>
+                Давайте рассмотрим &ltp&gt элемент параграфа более подробно.
+            </p>
+
+            <img src="images/grumpy-cat-small.png" alt="grumpy-tag">
+
+            <ol>
+                <li><b>Открывающий тег: </b>Состоит из имени этого элемента</li>
+                <li><b>Закрывающий тег: </b> Это тоже самое, что и открывающий тег</li>
+                <li></li>
+                <li></li>
+            </ol>
+
+            <p>
+                Элементы также могут иметь атрибуты, которые выглядят так:
+            </p>
+            <img src="images/grumpy-cat-small.png" alt="grumpy-attr">
+
+            <p>
+                <em>Атрибуты</em> содержат дополнительную иниформацию об элементе,
+            </p>
+
+            <p>
+                Атрибут всегда должен иметь:
+            </p>
+            <ol>
+                <li>
+                    Пространство
+                </li>
+                <li>
+                    Имя атрибута
+                </li>
+                <li>
+                    Открывающее
+                </li>
+            </ol>
+
+
+            <h3>
+                Вложенные элементы
+            </h3>
+
+            <h3>
+                Пустые элементы
+            </h3>
+
+            <h3>
+                Анатомия HTML элемента
+            </h3>
+
+
+            <!-- РАЗДЕЛ 2 -->
+            <h2>
+                Краткое описание элемента &lthtml&gt &lt/html&gt
+            </h2>
+
+            <p>
+                Корневой элемент HTML-документа(&lthtml&gt). Все остальные элементы должны быть потомками этого элемента.
+            </p>
+
+            <table>
+                <tr>
+                    <td>
+                        <b>Content categories</b>
+                    </td>
+                    <td>
+                        None.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Допустимое содержимое</b>
+                    </td>
+                    <td>
+                        Один элемент &lthead&gt, а за ним &#8212 один элемент &ltbody&gt
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Tag omission</b>
+                    </td>
+                    <td>
+                        The start tag may be omitted if the first thing inside the &lthtml&gt element is not a commnet.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Допустимые родительские элементы</b>
+                    </td>
+                    <td>
+                        As the root element of a document, or wherever a subdocument fragment is allowed in a compound document.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Интерфейс DOM</b>
+                    </td>
+                    <td>
+                        HTMLHtmlElement
+                    </td>
+                </tr>
+            </table>
+              
+            <h3>
+                Атрибуты
+            </h3>
+
+            <div class="attr">    
+                <h4>
+                    manifest
+                </h4>
+                <p>
+                Specifies the URL of a resourse manifest indicating resourses that should be cached locally, "See Using the application cache" for details.
+                </p>
+            </div>    
+
+            <div class="attr">    
+                <h4>
+                    version
+                </h4>
+                <p>
+                Specifies the URL of a resourse manifest indicating resourses that should be cached locally, "See Using the application cache" for details.
+                </p>
+            </div>
+
+            <div class="attr">
+                <h4>
+                    xmlns
+                </h4>
+                <p>
+                Specifies the URL of a resourse manifest indicating resourses that should be cached locally, "See Using the application cache" for details.
+                </p>
+            </div>
+
+            <!-- ***** PART 3 ****** -->
+            <h2>
+                Заключение
+            </h2>
+            <p>
+                Полные версии статей можно найти по ссылкам <a href="#">Основы HTML</a> и <a href="#">Элемент &lthtml&gt</a>
+            </p>
+
+        </div>
+    </section>
+    
+
+    
+
+
+</body>
+</html>
