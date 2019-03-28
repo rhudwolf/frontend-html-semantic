@@ -93,7 +93,7 @@ h1, h2, h3 {
 
 form, fieldset, p, table, img, code, ul, ol {
     display: block;
-    /* margin: 0 0 20px; */
+    margin: 0 0 20px;
     padding: 0;
 }
 
@@ -156,6 +156,10 @@ a:focus {
     padding: 15px;
 }
 
+blockquote {
+    padding: 10px;
+}
+
 .example {
     background-color: #efefef;
     height: 50px;
@@ -187,7 +191,14 @@ img {
     margin-left: 35px;
 }
 
+table {
+    margin-bottom: 20px;
+}
 
 table td:nth-child(2) {
     width: 80%;
+}
+
+.table-spec {
+    background: red;
 }
