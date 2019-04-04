@@ -18,8 +18,10 @@ body {
 
 header, nav, section, menu, article, main, figure, aside, footer, details, figcaption, hgroup, summary, code {
     display: block;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    width: 1200px;
+
 }
 
 img {
@@ -65,12 +67,14 @@ b, strong {
 em, i {
     font-style: italic;
 }
-q, quote {
+q {
     display: block;
     padding: 1em;
     quotes: none;
     background: #f4f7f8;
     font-weight: bold;
+    margin-bottom: 1em;
+    
 }
 q:before, quote:before,
 q:after, quote:after{
@@ -115,12 +119,16 @@ li ol {
     margin-top: 1em;
 }
 
+dl {
+    margin-bottom: 2em;
+}
+
 dt {
     font-weight: bold;
-    margin: 0 0 0.1em;
+    margin-bottom: -1.3em;
 }
 dd {
-    margin: 0 0 1em 2.5em;
+    margin-bottom: 1em;
 }
 
 
@@ -138,11 +146,6 @@ a:active {
 }
 a:focus {
     outline: thin dotted;
-}
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
 }
 
 /* ****** HEADER ***** */
