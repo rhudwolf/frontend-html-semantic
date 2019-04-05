@@ -3,6 +3,7 @@
 html {
     overflow: auto;
     height: 100%;
+    scroll-behavior: smooth;
 }
 body {
     width: auto;
@@ -205,3 +206,4 @@ table td:nth-child(2) {
 .table-spec {
     background: red;
 }
+
