@@ -68,7 +68,7 @@ b, strong {
 em, i {
     font-style: italic;
 }
-q {
+q, quote {
     display: block;
     padding: 1em;
     quotes: none;
